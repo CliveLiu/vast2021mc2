@@ -1,0 +1,38 @@
+---
+title: "Poster"
+description: |
+  A new article created using the Distill format.
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+The project poster should provide an overview of your project. It should include, but not limited to the following information:
+
+- Issues and problems - A clear statement of the issues or/and problems your project addresses.
+
+- Motivation - An explanation of why the issues and/or problems are interesting and what make them difficult to solve.
+
+- Approach - A description of the techniques or algorithms you used to solve the problem.
+
+- Results - Screenshots and a working demo of the system you built.
+
+- Future Work - An explanation of how the work could be extended.
+
+The dimensions for the poster must conform to the International Standards Organization (ISO) poster size format (A1).
+
+- Size = ISO A1 (594 × 841mm or 23.39 × 33.11inci)
+- Resolution = 300dpi or above
+- File format = jpeg or pdf
+- Please ensure that the poster is in high resolution.
+
+Project teams are encouraged to use [posterdown](https://github.com/brentthorne/posterdown/wiki) to design your poster.
+
+**Note**: The poster will be considered a final deliverable, so don’t forget to apply good visual design and data visualisation principles and best practice to your poster.
+
+
+
+
+

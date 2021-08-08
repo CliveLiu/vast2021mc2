@@ -6,15 +6,52 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-08T21:50:50+08:00"
+      "last_modified": "2021-08-08T23:51:57+08:00"
+    },
+    {
+      "path": "Application.html",
+      "title": "Application",
+      "description": "A new article created using the Distill format.\n",
+      "author": [],
+      "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-08-08T23:51:58+08:00"
     },
     {
       "path": "index.html",
-      "title": "DTSVD",
-      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "title": "Dynamics Temporal and Spatial Visualisation Dashboard for 2021 VAST Challenges 2",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-08T21:50:51+08:00"
+      "contents": "\r\n\r\n\r\nAs a first step, you should create a project summary at the course wiki that includes:\r\nA short description of not more than 350 word summarising the motivation, objectives, main features of the application your team are going to build.\r\nThe visual analytics project will account for 30% of your final grade in the course. The distribution of marks for each stage of the project are as follows:\r\nProject website 15%\r\nPoster 10%\r\nPractice Research Paper 25%\r\nShinyApp 50%\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-08-08T23:52:00+08:00"
+    },
+    {
+      "path": "Poster.html",
+      "title": "Poster",
+      "description": "A new article created using the Distill format.\n",
+      "author": [],
+      "contents": "\r\nThe project poster should provide an overview of your project. It should include, but not limited to the following information:\r\nIssues and problems - A clear statement of the issues or/and problems your project addresses.\r\nMotivation - An explanation of why the issues and/or problems are interesting and what make them difficult to solve.\r\nApproach - A description of the techniques or algorithms you used to solve the problem.\r\nResults - Screenshots and a working demo of the system you built.\r\nFuture Work - An explanation of how the work could be extended.\r\nThe dimensions for the poster must conform to the International Standards Organization (ISO) poster size format (A1).\r\nSize = ISO A1 (594 × 841mm or 23.39 × 33.11inci)\r\nResolution = 300dpi or above\r\nFile format = jpeg or pdf\r\nPlease ensure that the poster is in high resolution.\r\nProject teams are encouraged to use posterdown to design your poster.\r\nNote: The poster will be considered a final deliverable, so don’t forget to apply good visual design and data visualisation principles and best practice to your poster.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-08-08T23:52:01+08:00"
+    },
+    {
+      "path": "Proposal.html",
+      "title": "Proposal",
+      "description": "The proposal for the visual analytics project.\n",
+      "author": [
+        {
+          "name": "TAN Choo Thye",
+          "url": "https://funplaywdata06.netlify.app/"
+        },
+        {
+          "name": "LIU Yangguang",
+          "url": "https://ygliu.netlify.app/"
+        },
+        {
+          "name": "ZHONG Linli",
+          "url": "https://linlizhong.netlify.app/"
+        }
+      ],
+      "date": "06-20-2021",
+      "contents": "\r\n\r\nContents\r\nINTRODUCTION\r\nMOTIVATION AND OBJECTIVES\r\nDATA AND TASKS\r\nAPPROACH\r\nTIMELINE\r\n\r\nINTRODUCTION\r\nIEEE organises an annual Visual Analytics Science and Technology (VAST) Challenge with the goal to promote and push the application of visual analytics for individuals and teams through competition. It has a variety of realistic analytic tasks and data sets for one to challenge their mind and skillsets. When solving the task, It will spur one to be innovative in data transformation and the application of visual analytic techniques so to develop insightful, interesting and interactive visualisation. VAST Challenge 2021 is here. The challenge will set the foundation and opportunity for SMU students to test and benchmark one visual analytics technique.\r\nMOTIVATION AND OBJECTIVES\r\nWe are motivated and honoured to pit our visual analytics techniques on this renowned VAST Challenge by adopting this programme as the foundation for our Visual Analytics Project. We are fascinated to solve the tasks using creative and innovative visualisation for storytelling to the best of our ability. The objectives are:\r\nEffective use of visual analytics techniques in approaching and solving the tasks.\r\nOffer insightful interesting and interactive visualisation with good clarity and aesthetics as part of storytelling in solving the task.\r\nDATA AND TASKS\r\nThis project will focus on the mini-challenge 2 (MC2) from VAST Challenge 2021. It was designed based on a fictitious scenario where employee of a company went missing. And the data cover from loyalty card and credit card date to the vehicle GPS data:\r\nA list of vehicle assignments by employee, in CSV format (car-assignments.csv)\r\nEmployee Last Name\r\nEmployee First Name\r\nCar ID (integer)\r\nCurrent Employment Type (Department; categorical)\r\nCurrent Employment Title (job title; categorical)\r\n\r\nESRI shapefiles of Abila and Kronos (in the Geospatial folder)\r\nA CSV file of vehicle tracking data (gps.csv)\r\nTimestamp\r\nCar ID (integer)\r\nLatitude\r\nLongitude\r\n\r\nA CSV file containing loyalty card transaction data (loyalty_data.csv)\r\nTimestamp\r\nLocation (name of the business)\r\nPrice (real)\r\nLoyalty Number (A 5-character code starting with L that is unique for each card)\r\n\r\nA CSV file containing credit and debit card transaction data (cc_data.csv)\r\nTimestamp\r\nLocation (name of the business)\r\nPrice (real)\r\nLast 4 digits of the credit or debit card number\r\n\r\nA tourist map of Abila with locations of interest identified, in JPEG format (MC2-Tourist.jpg)\r\nBased on the available datasets, we will complete several tasks:\r\nIdentify popular locations where the credit and loyalty card were used and some anomalies in usage\r\nAnomalies after adding the vehicle data\r\nInfer the owners of each credit and loyalty card and with evidence and uncertainties\r\nIdentify potential informal or unofficial relationships among personnel in the company\r\nIdentify suspicious activity and its location\r\nAPPROACH\r\nThis year, the project is a continuation for the module assignment where individual teammate will independently select one mini challenge to embark on. Thereafter, the teammate will decide collectively on the project deliverables base on the assignment. For the project, the teammate will meet up based on the established timeline to share about their works to address the MC2 tasks.\r\nThrough collective discussion, we would either select the best visualisation from individual effort on the respective task or design a new visualisation based on new insights gleaned from the discussion. The discussion will also focus on deliberating on the best approach to storytelling team findings via an interactive visualisation in Shinny. Aim is to provide positive experience to one in exploring insights via Shinny. The details on the techniques and visualisation will evolve over the assignment phase.\r\nSoftware Tool\r\nThis interactive application will be using R and the final report will be written using rmarkdown.\r\nThe R packages used will include but not limited to:\r\nData Cleaning\r\nlubridate: https://lubridate.tidyverse.org/\r\nTidyverse: https://www.tidyverse.org/\r\nGeneral\r\nreadr: https://cran.r-project.org/web/packages/readr\r\nreadxl: https://cran.r-project.org/web/packages/readxl\r\ntidyverse: https://www.tidyverse.org\r\nShiny and Visualization\r\nDT: https://cran.r-project.org/web/packages/DT\r\nggplot2: https://cran.r-project.org/web/packages/ggplot2/index.html\r\nshiny: https://shiny.rstudio.com\r\nshinythemes: https://cran.r-project.org/web/packages/shinythemes\r\nshinyWidgets: https://cran.r-project.org/web/packages/shinyWidgets\r\nshinydashboard: https://cran.r-project.org/web/packages/shinydashboard/index.html\r\nData Analysis\r\ncorrplot: https://cran.r-project.org/web/packages/corrplot\r\npurr: https://cran.r-project.org/web/packages/purrr/index.html\r\nrgdal: https://cran.r-project.org/web/packages/rgdal\r\nrgeos: https://cran.r-project.org/web/packages/rgeos\r\nTIMELINE\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-08-08T23:52:03+08:00"
     }
   ],
   "collections": []

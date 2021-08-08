@@ -1,0 +1,15 @@
+---
+title: "Poster"
+description: |
+  A new article created using the Distill format.
+author:
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Step-by-step guide on how to use the data visualisation functions designed.
+
+
