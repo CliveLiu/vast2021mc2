@@ -1,13 +1,19 @@
 ---
 title: "Poster"
-description: |
-  A new article created using the Distill format.
 output: distill::distill_article
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+![](media/poster.png)
+
+```{r, layout="l-page"}
+knitr::include_graphics("media/poster.png")
+```
+
+<!-- l-screen, l-body-outset -->
 
 The project poster should provide an overview of your project. It should include, but not limited to the following information:
 

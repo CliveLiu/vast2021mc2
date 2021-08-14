@@ -1,7 +1,5 @@
 ---
 title: "Proposal"
-description: |
-  The proposal for the visual analytics project.
 author:
   - name: TAN Choo Thye 
     url: https://funplaywdata06.netlify.app/

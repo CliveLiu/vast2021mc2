@@ -1,7 +1,5 @@
 ---
 title: "Application"
-description: |
-  A new article created using the Distill format.
 output: distill::distill_article
 ---
 
@@ -9,11 +7,11 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Distill is a publication format for scientific and technical writing, native to the web. 
 
-Learn more about using Distill for R Markdown at <https://rstudio.github.io/distill>.
+Application can be found at [shinyapps.io](https://ygliu.shinyapps.io/vast2021/).
 
 
+The source code and data can be found at [Github.com](https://github.com/CliveLiu/vast2021mc2).
 
 
 

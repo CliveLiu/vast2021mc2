@@ -1,7 +1,5 @@
 ---
-title: "Poster"
-description: |
-  A new article created using the Distill format.
+title: "User Guide"
 author:
 output: distill::distill_article
 ---
@@ -10,6 +8,10 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Step-by-step guide on how to use the data visualisation functions designed.
+Click to download user guide for our application: [Download!](media/rmarkdown-cheatsheet.pdf)
+
+```{r label, layout="l-body-outset", out.height = "700px", out.width = "100%", echo = FALSE, message=FALSE, fig.align='center', fig.pos='H'}
+knitr::include_graphics("media/rmarkdown-cheatsheet.pdf")
+```
 
 

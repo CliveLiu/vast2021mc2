@@ -1,5 +1,5 @@
 ---
-title: "Dynamics Temporal and Spatial Visualisation Dashboard for 2021 VAST Challenges 2"
+title: "A Dynamic and Interactive GeoTime Visualisation Dashboard for 2021 VAST Challenges 2"
 description: 
 site: distill::distill_website
 ---
@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 As a first step, you should create a project summary at the course wiki that includes:
 
-A short description of not more than 350 word summarising the motivation, objectives, main features of the application your team are going to build.
+**A short description of not more than 350 word** summarising the motivation, objectives, main features of the application your team are going to build.
 
 The visual analytics project will account for 30% of your final grade in the course. The distribution of marks for each stage of the project are as follows:
 
