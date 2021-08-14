@@ -18,6 +18,8 @@ navbar:
       href: User-Guide.html
     - text: "Research Paper"
       href: Research-Paper.html
+    - icon: fa fa-github # fab fa-github , fab fa-github-alt fa-1x, fab or fa
+      href: https://github.com/CliveLiu/vast2021mc2
     # - text: "About"
     #   href: about.html
 output: distill::distill_article
