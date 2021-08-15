@@ -1,0 +1,13 @@
+name: test
+title: test
+username:
+account: ygliu
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4484593
+bundleId: 4915011
+url: https://ygliu.shinyapps.io/test/
+when: 1628756900.76253
+lastSyncTime: 1628756900.76253
+asMultiple: FALSE
+asStatic: FALSE

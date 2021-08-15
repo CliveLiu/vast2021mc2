@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = FALSE)
 Application can be found at [shinyapps.io](https://ygliu.shinyapps.io/vast2021/).
 
 
-The source code and data can be found at [Github.com](https://github.com/CliveLiu/vast2021mc2).
+The source code and data can be found at [Github.com](https://github.com/CliveLiu/vast2021mc2/tree/master/ShinyApp).
 
 
 

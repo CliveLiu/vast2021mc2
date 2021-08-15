@@ -1,0 +1,14 @@
+name: vast2021
+title: vast2021
+username:
+account: ygliu
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4482410
+bundleId: 4925845
+url: https://ygliu.shinyapps.io/vast2021/
+when: 1629041109.29307
+lastSyncTime: 1629041109.29307
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: date_cleaning

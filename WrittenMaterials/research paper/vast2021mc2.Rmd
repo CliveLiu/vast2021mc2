@@ -12,11 +12,16 @@ author:
     affiliation: Singapore Mangement University
 abstract: |
   One will potential need to conduct analysis, combines and associate on heterogeneous data sets. The task is exacerbated when the dataset has geospatial-temporal with timeseries attributes. Ability to discern and process the data to gain insights is a daunting task. Referencing to mini challenge 2 in 2021 VAST challenge, the motivation is to develop DiGTvis,  dynamic and interactive geospatial temporal visualisation dashboard. The dashboard shall design with principals of visualisation and usability, centric around the needs of a user in processing heterogeneous data sets with geospatial-temporal dimension.  We have demonstrated the potential of DiGTvis in exploring and analysing heterogeneous data. Most importantly, the exponential values and insights that DiGTvis could offer when leveraging on a hybrid of visualisation toolkits couple with highly interactive design.
+
 bibliography: sigproc.bib
 csl: acm-sig-proceedings.csl
 output: rticles::acm_article
 ---
 
+```{r, echo=FALSE,eval=FALSE}
+install.packages("rticles")
+library(rticles)
+```
 
 # INTRODUCTION 
 
@@ -26,7 +31,7 @@ The 2021 annual Visual Analytics Science and Technology (VAST) Challenge \href{h
 
 2021 VAST MC2 has four csv files, namely (1) credit card transaction, (2) loyalty card transaction (3) geospatial tracking data of company vehicle and (4) vehicle assignment and personnel data. The data was associated with temporal and/or geographical information related to transaction aspatial data. See Figure 1. 
 
-![Metedata and Association between Files](img/Figure1.png)
+  ![Metedata and Association between Files](img\Figure1.png)
 
 The challenge generally used heterogeneous data sets where one was required to analysis, combines and associate. Each csv file was like a puzzle piece and solving the puzzle would be dependent on the ability to establish the links between the common metadata within the files (i.e. linking loyalty card – credit card – vehicle ID – personnel information).  Some puzzle could be solved by simple file merging operations while others, would require data transformation couple with visual analysis to establish the relationship. For example, linking credit card with vehicle ID might need to establish the geospatial value to the respective location prior the association via temporal attributes. It was imperative to determine the linkages among the dataset as it would establish the foundation layer to enable deeper analysis to address MC2 tasking. 
 
@@ -133,11 +138,11 @@ Bar plot shows popularity of locations without timestamp. You can also check the
 
 ![Design for mapping cards](img/parallel.png)
  
-The table on the left displays all one-to-one matched card pairs. Users can use search functions above to look for a specific card. The *count* in the third column refers to the number of matched consumption records
+<!-- The table on the left displays all one-to-one matched card pairs. Users can use search functions above to look for a specific card. The *count* in the third column refers to the number of matched consumption records -->
 
 The parallel sets plot on the right show connections between cards. The width of lines represents the number of matched consumption records between this credit card and this loyalty card. It can be regarded as the confidence level of this mapping pair. Users can identify the most possible card pairs as well as anomalies behind.
 
-![Bar plot with facet showing consumption activities](img/facet.png)
+![Bar plot with facet showing consumption activities](img/facet2.png)
 
 The two bar plots with facet help users to track consumption made by one chosen card or happened at one chosen location. The left one is for tracking one person: users can find his/her consumption habit as well as irregular activities. The right one is for tracking one location: users can also check the regular and irregular consumption made by various cards.
 
