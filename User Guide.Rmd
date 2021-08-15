@@ -8,10 +8,10 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-<!-- Click to download user guide for our application: [Download!](media/rmarkdown-cheatsheet.pdf) -->
+Click to download user guide for our application: [Download!](WrittenMaterials/UserGuide/ApplicationUserGuide.pdf)
 
-<!-- ```{r label, layout="l-body-outset", out.height = "700px", out.width = "100%", echo = FALSE, message=FALSE, fig.align='center', fig.pos='H'} -->
-<!-- knitr::include_graphics("media/rmarkdown-cheatsheet.pdf") -->
-<!-- ``` -->
+```{r label, layout="l-body-outset", out.height = "700px", out.width = "100%", echo = FALSE, message=FALSE, fig.align='center', fig.pos='H'}
+knitr::include_graphics("WrittenMaterials/UserGuide/ApplicationUserGuide.pdf")
+```
 
 
