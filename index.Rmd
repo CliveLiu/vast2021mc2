@@ -9,17 +9,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-<!-- Southern California R Users Groups -->
-<!-- check to make cover -->
-
-
-As a first step, you should create a project summary at the course wiki that includes:
+One will potential encounter heterogeneous data sets where one has to analysis, combines and associate. The task is exacerbated when the dataset has geospatial-temporal with timeseries attributes. Ability to discern and process the data to gain insight is a daunting task. Referencing to mini challenge 2 in 2021 VAST challenge, the motivation for is to provide DiGTvis,  dynamic and interactive geospatial temporal visualisation dashboard. The dashboard shall design with principals of visualisation and usability, centric around the needs of a user.  We have demonstrated the potential of DiGTvis in exploring and analysing heterogeneous data. Most importantly, the exponential values and insights that DiGTvis could offer when leveraging on few essential visualisation toolkits couple with highly interactive design.
 
 **A short description of not more than 350 word** summarising the motivation, objectives, main features of the application your team are going to build.
 
-The visual analytics project will account for 30% of your final grade in the course. The distribution of marks for each stage of the project are as follows:
-
-- Project website 15%
-- Poster 10%
-- Practice Research Paper 25%
-- ShinyApp 50%
